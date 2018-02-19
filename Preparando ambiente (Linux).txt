@@ -1,0 +1,33 @@
+=========================
+Para instalar  meteor
+=========================
+sudo apt-get install curl
+Run the following command in your terminal to install the latest official Meteor release: 
+curl https://install.meteor.com/ | sh 
+=========================
+Instalar o git
+=========================
+sudo apt-get install git
+
+=========================
+Ubuntu instalar vscode 
+=========================
+
+***Tente encontrar Ubuntu software senão
+
+Passo 1. Abra um terminal (no Unity use as teclas CTRL + ALT + T);
+Passo 2. Se for essa for a primeira vez que instala um aplicativo usando o pacote SNAP, antes você pode precisa instalar o snapd com esse comando (caso ainda não esteja instalado). Em versões recentes do Ubuntu (como 16.04 e 16.10 ou 17.04), este ele já deve estar instalado por padrão. Para o Ubuntu 14.04, você precisa instalar o snapd com esse comando;
+
+sudo apt install snapd
+
+Passo 3. Instale a versão mais recente do xx no Ubuntu via SNAP, usando esse comando:
+
+sudo snap install --classic vscode
+
+Passo 4. Mais tarde, se você precisar atualizar o snap do Visual Studio Code, use:
+
+sudo snap refresh vscode
+
+Passo 5. Depois, se for necessário, desinstale o programa, usando o comando abaixo;
+
+sudo snap remove vscode
